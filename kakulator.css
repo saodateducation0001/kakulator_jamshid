@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Sahsiy_roboto_fomti;
+    user-select: none;
+}
+
+@font-face {
+    font-family: Sahsiy_roboto_fomti;
+    src: url(FONTS/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: roboto2;
+    src: url(FONTS/Roboto-Medium.ttf);
+}
+
+.kalk {
+    width: 300px;
+    height: 550px;
+    margin: auto;
+    border: 3px solid black;
+    background-color: black;
+    margin-top: 100px;
+    border-radius: 50px;
+    overflow: auto;
+}
+
+.area {
+    width: 90%;
+    height: 70px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.area input {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 2px;
+    background-color: transparent;
+    text-align: right;
+}
+
+::placeholder {
+    color: white;
+}
+
+.grob {
+    /* border: 1px solid white; */
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.grob button:hover {
+    background-color: rgba(67, 67, 67, 0.992);
+}
+
+.grob button:active {
+    transform: scale(0.9);
+    /* background-color: rgba(142, 139, 139, 0.425); */
+}
+
+.grob button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 20px;
+    font-family: roboto2;
+    outline: none;
+    border: none;
+    margin-left: 11px;
+    background-color: rgba(67, 67, 67, 0.653);
+    color: white;
+    cursor: pointer;
+    transform: all 0.2;
+}
+
+.zero {
+    width: 111px !important;
+    border-radius: 21px !important;
+    text-align: left;
+    padding: 10px;
+}
+
+.one {
+    background-color: rgb(138, 142, 139) !important;
+    color: black !important;
+}
+
+.one:hover {
+    background-color: rgba(138, 142, 139, 0.419) !important;
+}
+
+.tt {
+    background-color: rgb(248, 144, 7) !important;
+}
+
+.tt:hover {
+    background-color: rgba(248, 144, 7, 0.599) !important;
+}
